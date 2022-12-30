@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>SessionTrackingUsingHiddenFormField1</servlet-name>
+        <servlet-class>SessionTrackingUsingHiddenFormField1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+	<servlet-name>SessionTrackingUsingHiddenFormField1</servlet-name>
+	<url-pattern>/SessionTrackingUsingHiddenFormField1</url-pattern>
+    </servlet-mapping>
+        <servlet>
+        <servlet-name>SessionTrackingUsingHiddenFormField2</servlet-name>
+        <servlet-class>SessionTrackingUsingHiddenFormField2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+	<servlet-name>SessionTrackingUsingHiddenFormField2</servlet-name>
+	<url-pattern>/SessionTrackingUsingHiddenFormField2</url-pattern>
+    </servlet-mapping>
+</web-app>
+

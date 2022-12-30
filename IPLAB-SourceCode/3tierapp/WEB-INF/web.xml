@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>Threetierapp</servlet-name>
+		<servlet-class>Threetierapp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Threetierapp</servlet-name>
+		<url-pattern>/Threetierapp</url-pattern>
+	</servlet-mapping>
+</web-app>
